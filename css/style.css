@@ -1,0 +1,175 @@
+*{
+    margin : 0;
+    padding : 0;
+   
+}
+html{
+    overflow: hidden;
+    color : white;
+    background : #34495e;
+}
+#bodybox{
+    width : 100%;
+}
+#header{
+    width : 100%;
+
+}
+
+#signForm{
+    width : 100%;
+    height : 969px;
+    background : #34495e;
+}
+#id{
+    position : absolute;
+    width : 700px;
+    height : 600px;
+    padding : 20,30px;
+    background : white;
+    top : 15%;
+    left : 32%;
+    border-radius : 15px;
+    float : left;
+    
+}
+#login{
+    position : absolute;
+    top : 200px;
+    left : 140px;
+}
+input{
+    width : 400px;
+    height : 40px;
+    margin : 5px;
+}
+#sign{
+    position : absolute;
+    top : 50px;
+    left : 140px;
+}
+button{
+    position : absolute;
+    bottom : 70px;
+    left : 300px;
+    width : 100px;
+    height : 50px;
+    background : #34495e;
+    text-align: center;
+    line-height : 45px;
+    font-size : 25px;
+    border-radius : 15px;
+}
+
+li{
+    list-style : none;
+}
+a{
+    text-decoration: none;
+    color : white;
+}
+.typing-txt{display: none;}
+.typeing-txt ul{list-style:none;}
+.typing {  
+  display: inline-block; 
+  animation-name: cursor; 
+  animation-duration: 0.3s; 
+  animation-iteration-count: infinite; 
+} 
+@keyframes cursor{ 
+  0%{border-right: 1px solid #fff} 
+  50%{border-right: 1px solid #000} 
+  100%{border-right: 1px solid #fff} 
+}
+  #txt{
+      z-index : 1;
+      position : absolute;
+      top : 450px;
+      left : 830px;
+      font-size : 50px;
+      color : white;
+  }
+  #hd1{
+    width : 100%;
+    background : black;
+    position: absolute;
+    top : 0px;
+    
+  }
+  .main-menu-1>li{
+        
+        border-radius: 15px;
+        margin : 5px;
+        width : 150px;
+        height : 50px;
+        
+        float : left;
+        float : left;
+        line-height : 50px;
+        text-align : center;
+  }
+  .main-menu-2{
+      position : absolute;
+      right : 0px;
+  }
+  .main-menu-2>li{
+    
+    border-radius: 15px;
+    margin : 5px;
+    width : 80px;
+    height : 50px;
+    
+    float : left;
+    float : left;
+    line-height : 50px;
+    text-align : center;
+}
+  #id>table{
+      left : 20px;
+      position: absolute;
+      top : 60px;
+      z-index : 1;
+      border : 1px solid;
+      color : black;
+      width : 650px;
+      height : 400px;
+      text-align : center;
+
+  }
+  #specialtext{
+    position : absolute;
+    width : 700px;
+    height : 600px;
+    padding : 20,30px;
+    background : white;
+    top : 15%;
+    left : 32%;
+    border-radius : 15px;
+    float : left;
+  }
+  #specialtext>table{
+    left : 20px;
+    position: absolute;
+    top : 60px;
+    z-index : 1;
+    border : 1px solid;
+    color : black;
+    width : 650px;
+    height : 200px;
+    text-align : center;
+
+}
+#spbar{
+    font-size : 20px;
+    position : absolute;
+    top : 350px;
+    left : 150px;
+}
+#profile{
+    float : left;
+    position: absolute;
+    left : 36%;
+    top : 10%;
+    color : black;
+    text-align: center;
+}
